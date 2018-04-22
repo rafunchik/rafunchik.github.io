@@ -729,7 +729,7 @@ h2 {
 		-webkit-overflow-scrolling: touch;
 		position: fixed;
 		top: 0;
-		width: 32.5em;
+		width: 42.5em;
 		height: 100%;
 		background: #fff;
 		outline: 0;
@@ -759,7 +759,7 @@ h2 {
 
 		body.fullscreen #main {
 			visibility: hidden;
-			right: -32.5em;
+			right: -42.5em;
 		}
 
 		body.is-loading-1 #main {
@@ -770,11 +770,11 @@ h2 {
 		@media screen and (max-width: 1280px) {
 
 			#main {
-				width: 29em;
+				width: 39em;
 			}
 
 				body.fullscreen #main {
-					right: -29em;
+					right: -39em;
 				}
 
 		}
