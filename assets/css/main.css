@@ -729,7 +729,7 @@ h2 {
 		-webkit-overflow-scrolling: touch;
 		position: fixed;
 		top: 0;
-		width: 42.5em;
+		width: 32.5em;
 		height: 100%;
 		background: #fff;
 		outline: 0;
@@ -759,7 +759,7 @@ h2 {
 
 		body.fullscreen #main {
 			visibility: hidden;
-			right: -42.5em;
+			right: -32.5em;
 		}
 
 		body.is-loading-1 #main {
@@ -770,11 +770,11 @@ h2 {
 		@media screen and (max-width: 1280px) {
 
 			#main {
-				width: 39em;
+				width: 29em;
 			}
 
 				body.fullscreen #main {
-					right: -39em;
+					right: -29em;
 				}
 
 		}
@@ -1001,7 +1001,7 @@ h2 {
 		transition: opacity 0.75s ease, width 0.75s ease;
 		position: absolute;
 		top: 0;
-		width: calc(100% - 42.5em);
+		width: calc(100% - 22.5em);
 		height: 100%;
 		left: 0;
 	}
