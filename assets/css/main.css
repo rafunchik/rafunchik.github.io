@@ -729,7 +729,7 @@ h2 {
 		-webkit-overflow-scrolling: touch;
 		position: fixed;
 		top: 0;
-		width: 22.5em;
+		width: 20em;
 		height: 100%;
 		background: #fff;
 		outline: 0;
@@ -759,7 +759,7 @@ h2 {
 
 		body.fullscreen #main {
 			visibility: hidden;
-			right: -22.5em;
+			right: -20em;
 		}
 
 		body.is-loading-1 #main {
@@ -1001,7 +1001,7 @@ h2 {
 		transition: opacity 0.75s ease, width 0.75s ease;
 		position: absolute;
 		top: 0;
-		width: calc(100% - 22.5em);
+		width: calc(100% - 20em);
 		height: 100%;
 		left: 0;
 	}
