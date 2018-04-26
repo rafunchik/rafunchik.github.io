@@ -1001,7 +1001,7 @@ h2 {
 		transition: opacity 0.75s ease, width 0.75s ease;
 		position: absolute;
 		top: 0;
-		width: calc(100% - 22.5em);
+		width: calc(100% - 42.5em);
 		height: 100%;
 		left: 0;
 	}
